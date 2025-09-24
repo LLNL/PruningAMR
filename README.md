@@ -36,21 +36,21 @@ python main.py --INR_key <model_key> [options]
 
 ### Command Line Arguments
 
-| Argument | Type | Default | Description |
-|-------------------|------|---------|------------|
-| `--original` | flag | False | Run uniform refinement instead of adaptive |
-| `--ID_samples` | int | 256 | Number of samples for ID pruning |
-| `--error_samples` | int | 128 | Number of samples for error checking |
-| `--threshold` | float | 1e-3 | Error threshold for refinement |
-| `--prop_threshold` | float | 0.2 | Proportion threshold for pruning |
-| `--epsilon` | float | 1e-3 | Epsilon parameter for pruning |
-| `--max_it` | int | 4 | Maximum number of refinement iterations |
-| `--max_dofs` | int | 5000 | Maximum number of degrees of freedom |
-| `--time_slice` | float | 1.0 | Time slice for 4D data (e.g. CT scans) |
-| `--INR_key` | str | 'hos' | INR model identifier |
-| `--avg_error` | flag | False | Use BasicAMR instead of PruningAMR |
-| `--paraview` | flag | False | Generate ParaView output files |
-| `--num_uniform_ref` | int | 2 | Number of uniform refinement iterations before adaptive refinement begins; counts towards total iteration count|
+| Argument            | Type  | Default | Description                                                                                                     |
+| ------------------- | ----- | ------- | --------------------------------------------------------------------------------------------------------------- |
+| `--original`        | flag  | False   | Run uniform refinement instead of adaptive                                                                      |
+| `--ID_samples`      | int   | 256     | Number of samples for ID pruning                                                                                |
+| `--error_samples`   | int   | 128     | Number of samples for error checking                                                                            |
+| `--threshold`       | float | 1e-3    | Error threshold for refinement                                                                                  |
+| `--prop_threshold`  | float | 0.2     | Proportion threshold for pruning                                                                                |
+| `--epsilon`         | float | 1e-3    | Epsilon parameter for pruning                                                                                   |
+| `--max_it`          | int   | 4       | Maximum number of refinement iterations                                                                         |
+| `--max_dofs`        | int   | 5000    | Maximum number of degrees of freedom                                                                            |
+| `--time_slice`      | float | 1.0     | Time slice for 4D data (e.g. CT scans)                                                                          |
+| `--INR_key`         | str   | 'hos'   | INR model identifier                                                                                            |
+| `--avg_error`       | flag  | False   | Use BasicAMR instead of PruningAMR                                                                              |
+| `--paraview`        | flag  | False   | Generate ParaView output files                                                                                  |
+| `--num_uniform_ref` | int   | 2       | Number of uniform refinement iterations before adaptive refinement begins; counts towards total iteration count |
 
 ### Available INR Models
 
@@ -193,6 +193,8 @@ See [LICENSE](https://github.com/LLNL/PruningAMR/blob/main/LICENSE.md) and
 SPDX-License-Identifier: BSD-3
 
 LLNL-CODE-2005503
+
+DOE CODE ID: 165008
 
 ## Contribution
 
