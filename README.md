@@ -185,14 +185,12 @@ If you use this code in your research, please cite our preprint 'Pruning AMR: Ef
 ## License
 
 
-The code in this respository is distributed under the terms of the MIT license.
-
-All new contributions must be made under the MIT license.
+The code in this respository is distributed under the terms of the BSD-3 license.
 
 See [LICENSE](https://github.com/LLNL/PruningAMR/blob/main/LICENSE.md) and
 [NOTICE](https://github.com/LLNL/PruningAMR/blob/main/NOTICE.md) for details.
 
-SPDX-License-Identifier: (MIT)
+SPDX-License-Identifier: BSD-3
 
 LLNL-CODE-2005503
 
